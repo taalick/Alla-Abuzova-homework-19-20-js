@@ -1,0 +1,35 @@
+body{
+	width: 100%;
+}
+.header{
+	height: 1010px;
+}
+.mean{
+	.mean-center{
+		height: 545px;
+		background-color: $color_f7f7f7;
+		.latest-news-banners-place{
+			width: 1220px;
+    		height: 485px;
+			margin: 0 auto; 
+			padding-top: 50px;	
+			.latest-news{
+				float: left;
+				width: 570px;
+				height: 400px;
+				margin-right: 20px;
+				margin-top: 10px;
+			}
+			.banners-place{
+				float: left;
+				width: 600px;
+				height: 400px;			
+			}
+		}
+	}
+}
+
+.footer{
+	height: 435px;
+	background-color: $color_2a2d32;
+}

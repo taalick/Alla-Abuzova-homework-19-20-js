@@ -1,0 +1,54 @@
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    width: 1160px;
+    height: 470px;   
+}
+
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;   
+    left: 550px;
+    bottom: 0;
+    
+}
+
+.jcarousel-pagination a {
+    display: inline-block;    
+    height: 15px;
+    width: 15px;    
+    background: #fff;    
+    margin-right: 12px;
+
+}
+
+.jcarousel-pagination a.active {
+    background: #001d1d;    
+    opacity: 1;
+    width: 9px;
+    height: 9px;
+    border: 3px solid white;
+}
+
+
+
